@@ -1,0 +1,121 @@
+/* styles css*/
+
+/* Reset des styles pour une meilleure cohérence entre navigateurs */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style du corps de la page */
+
+h1{
+	font-size:2.6rem;
+}
+
+h2{
+	font-size:4.8rem;
+}
+
+h3{
+	font-size:3rem;
+}
+
+h4,h5{
+	font-size:2.8rem;
+}
+
+body {
+    font-family: Poppins, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style de l'en-tête */
+.main-head {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+}
+
+/* Style du logo dans l'en-tête */
+#logo {
+    margin: 0;
+    flex:1 1 40rem;
+}
+
+/* Style de la navigation */
+nav{
+	min-height:10vh;
+	display:flex;
+	align-items:center;
+	width: 90%;
+	margin:auto;
+}
+
+nav ul {
+    list-style: none;
+    display:flex;
+    flex:1 1 40rem;
+    align-items:center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #CCCCCC;
+}
+
+nav ul li a:hover {
+    color: #fff; /* Change la couleur au survol */
+    text-decoration:underline;
+}
+
+/* Style des sections */
+section {
+	padding:20px;
+    margin: 20px 0;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Style des liens */
+a {
+    color: #007bff;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+/* Hero */
+.hero{
+	min-height:90vh;
+	background:linear-gradient(rgb(0,0,0,0.6),transparent), url('ninho-accueil.png');
+	background-size:cover;
+	background-position:center;
+	color:#fff;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+}
+
+.hero h3{
+	padding:2rem;
+}
+
+footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
